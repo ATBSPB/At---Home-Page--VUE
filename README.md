@@ -1,7 +1,6 @@
 # At-Home-Page-VUE
 
 一个基于 [zyyo主页](https://zyyo.net/44.html)，用 Vue 3 + Vite 重构的个人主页项目。
-::github{repo="ZYYO666/homepage"}
 
 ## 项目结构
 
@@ -111,6 +110,7 @@ npm install
 npm run dev
 ```
 
+访问 http://localhost:5173/ 查看效果。
 
 ### 构建生产版本
 
