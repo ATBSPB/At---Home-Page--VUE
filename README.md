@@ -23,6 +23,8 @@ www - VUE/
 ├── index.html                # HTML 模板
 ├── package.json              # 项目依赖配置
 ├── vite.config.js            # Vite 配置
+├── wrangler.toml             # Cloudflare Pages 部署配置
+├── LICENSE                   # MIT 许可证
 └── README.md                 # 项目说明文档
 ```
 
@@ -116,7 +118,8 @@ body {
 | 页面头部 | `src/components/PageHeader.vue` | 欢迎语 | 第 30 行 |
 | 页面头部 | `src/components/PageHeader.vue` | 图标链接列表 | 第 33-54 行 |
 | 页面内容 | `src/components/PageContent.vue` | 项目站点数据 | 第 65-70 行 |
-| 页面底部 | `src/components/PageFooter.vue` | 版权信息/底部链接 | 第 21-27 行 |
+| 页面底部 | `src/components/PageFooter.vue` | 版权信息/底部链接 | 第 4-8 行 |
+| 页面底部 | `src/components/PageFooter.vue` | 滚动渐显效果 | 第 16-38 行 |
 | 主题切换 | `src/components/ThemeToggle.vue` | 切换按钮样式 | 第 21-38 行 |
 | 根组件 | `src/App.vue` | 主题切换逻辑 | 第 48-52 行 |
 | 根组件 | `src/App.vue` | 控制台输出/彩蛋 | 第 65-73 行 |
@@ -158,6 +161,26 @@ npm run build
 ```bash
 npm run preview
 ```
+
+### Cloudflare Workers + Pages 部署
+
+项目已配置 `wrangler.toml`，支持以下部署方式：
+
+**方式一：Cloudflare Pages**
+
+```bash
+npm run build
+npx wrangler pages deploy dist
+```
+
+**方式二：Cloudflare Workers**
+
+```bash
+npm run build
+npx wrangler deploy
+```
+
+已部署演示站：[@www.atbspb.online](https://www.atbspb.online)
 
 ## 技术栈
 
