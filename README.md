@@ -180,7 +180,7 @@ npm run build
 npx wrangler deploy
 ```
 
-已部署演示站：[@www.atbspb.online](https://www.atbspb.online)
+已部署演示站：[www.atbspb.online](https://www.atbspb.online)
 
 ## 技术栈
 
