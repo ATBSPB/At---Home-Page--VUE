@@ -57,7 +57,22 @@ SOFTWARE.
           <div>敬请期待...</div>
           <div>2026.6</div>
         </li>
-          <li>
+        <li>
+          <div class="focus"></div>
+          <div>全站内容开源</div>
+          <div>2026.6</div>
+        </li>
+        <li>
+          <div class="focus"></div>
+          <div>实现全站无服务器化</div>
+          <div>2026.5</div>
+        </li>
+        <li>
+          <div class="focus"></div>
+          <div>注册域名<br/>aneko.ink</div>
+          <div>2026.5</div>
+        </li>
+        <li>
           <div class="focus"></div>
           <div>Vue重构主页</div>
           <div>2026.5</div>
